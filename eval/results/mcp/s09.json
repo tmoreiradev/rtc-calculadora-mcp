@@ -1,0 +1,18 @@
+{
+ "id": "s09",
+ "mode": "mcp",
+ "models": [
+  "claude-sonnet-5-5"
+ ],
+ "result": "{\"itens\": [{\"numero\": 1, \"vCBS\": \"0.00\", \"vIBSUF\": \"0.00\", \"vIBSMun\": \"0.00\", \"erro\": null}]}",
+ "is_error": false,
+ "num_turns": 2,
+ "duration_ms": 11861,
+ "total_cost_usd": 0.015282500000000001,
+ "usage": {
+  "input_tokens": 4,
+  "output_tokens": 280,
+  "cache_creation_input_tokens": 2893,
+  "cache_read_input_tokens": 9025
+ }
+}

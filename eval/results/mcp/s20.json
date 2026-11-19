@@ -1,0 +1,18 @@
+{
+ "id": "s20",
+ "mode": "mcp",
+ "models": [
+  "claude-sonnet-5-5"
+ ],
+ "result": "{\"itens\": [{\"numero\": 1, \"vCBS\": null, \"vIBSUF\": null, \"vIBSMun\": null, \"vIS\": null, \"erro\": \"REG-037: Alíquotas nominais não informadas. Para fato gerador a partir de 01/01/2027, o item precisa trazer aliquotasNominais com cbs, ibsEstadual e ibsMunicipal, e a operação não traz nenhum desses campos.\"}]}",
+ "is_error": false,
+ "num_turns": 2,
+ "duration_ms": 9217,
+ "total_cost_usd": 0.0142626,
+ "usage": {
+  "input_tokens": 4,
+  "output_tokens": 361,
+  "cache_creation_input_tokens": 2437,
+  "cache_read_input_tokens": 8966
+ }
+}

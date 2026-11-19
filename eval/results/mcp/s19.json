@@ -1,0 +1,18 @@
+{
+ "id": "s19",
+ "mode": "mcp",
+ "models": [
+  "claude-sonnet-5-5"
+ ],
+ "result": "{\"itens\": [{\"numero\": 1, \"vCBS\": null, \"vIBSUF\": null, \"vIBSMun\": null, \"vIS\": null, \"erro\": \"REG-011: NCM 02013000 não vinculada à Classificação Tributária 200035 (CBS e IBS)\"}]}",
+ "is_error": false,
+ "num_turns": 2,
+ "duration_ms": 10579,
+ "total_cost_usd": 0.0139384,
+ "usage": {
+  "input_tokens": 4,
+  "output_tokens": 326,
+  "cache_creation_input_tokens": 2442,
+  "cache_read_input_tokens": 9024
+ }
+}

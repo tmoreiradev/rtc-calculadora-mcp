@@ -1,0 +1,1433 @@
+{
+ "baseline": [
+  {
+   "cenario": "s01",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULADO",
+    "vCBS": "9.00",
+    "vIBSUF": "1.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "9.00",
+    "vIBSUF": "1.00",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s02",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULADO",
+    "vCBS": "22.94",
+    "vIBSUF": "2.55",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "22.94",
+    "vIBSUF": "2.55",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s03",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULADO",
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s04",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULADO",
+    "vCBS": "5.40",
+    "vIBSUF": "0.60",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "5.40",
+    "vIBSUF": "0.60",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s05",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULADO",
+    "vCBS": "7.20",
+    "vIBSUF": "0.80",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "7.20",
+    "vIBSUF": "0.80",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s05",
+   "item": 2,
+   "ok": true,
+   "esperado": {
+    "numero": 2,
+    "estado": "CALCULADO",
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 2,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s06",
+   "item": 1,
+   "ok": false,
+   "esperado": {
+    "numero": 1,
+    "estado": "INCONSISTENCIA_ENTRADA",
+    "erro": "REG-036"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "44.00",
+    "vIBSUF": "0.25",
+    "vIBSMun": "0.25",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s07",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "108.64",
+    "vIBSUF": "0.62",
+    "vIBSMun": "0.62"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "108.64",
+    "vIBSUF": "0.62",
+    "vIBSMun": "0.62",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s08",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s09",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s10",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "18.03",
+    "vIBSUF": "0.10",
+    "vIBSMun": "0.10"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "18.03",
+    "vIBSUF": "0.10",
+    "vIBSMun": "0.10",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s11",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "0.97",
+    "vIBSUF": "0.01",
+    "vIBSMun": "0.01"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "0.97",
+    "vIBSUF": "0.01",
+    "vIBSMun": "0.01",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s12",
+   "item": 1,
+   "ok": false,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "119.68",
+    "vIBSUF": "0.68",
+    "vIBSMun": "0.68"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s13",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "528.00",
+    "vIBSUF": "3.00",
+    "vIBSMun": "3.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "528.00",
+    "vIBSUF": "3.00",
+    "vIBSMun": "3.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s14",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "29.92",
+    "vIBSUF": "0.17",
+    "vIBSMun": "0.17"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "29.92",
+    "vIBSUF": "0.17",
+    "vIBSMun": "0.17",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s15",
+   "item": 1,
+   "ok": false,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "616.00",
+    "vIBSUF": "3.50",
+    "vIBSMun": "3.50"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "352.00",
+    "vIBSUF": "2.00",
+    "vIBSMun": "2.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s16",
+   "item": 1,
+   "ok": false,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "14.52",
+    "vIBSUF": "0.08",
+    "vIBSMun": "0.08",
+    "vIS": "15.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": null,
+    "vIBSUF": null,
+    "vIBSMun": null,
+    "vIS": null,
+    "erro": "Item sem base de cálculo de IBS/CBS (campo baseCalculo ausente no item). Só o grupo do Imposto Seletivo traz baseCalculo (150,00), e ele não substitui a base de IBS/CBS. Sem ela, vCBS, vIBSUF e vIBSMun não podem ser calculados."
+   }
+  },
+  {
+   "cenario": "s17",
+   "item": 1,
+   "ok": false,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "94.86",
+    "vIBSUF": "0.54",
+    "vIBSMun": "0.54",
+    "vIS": "98.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": null,
+    "vIBSUF": null,
+    "vIBSMun": null,
+    "vIS": null,
+    "erro": "O item não informa a base de cálculo (valor da operação) de CBS/IBS, então esses tributos não podem ser calculados. O campo baseCalculo (980,00) existe apenas dentro de impostoSeletivo e serve só para o IS. O IS informado (98,00 = 10% de 980,00) é consistente, mas não substitui a base do item."
+   }
+  },
+  {
+   "cenario": "s18",
+   "item": 1,
+   "ok": false,
+   "esperado": {
+    "numero": 1,
+    "estado": "INCONSISTENCIA_ENTRADA",
+    "erro": "REG-026"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "21.12",
+    "vIBSUF": "0.12",
+    "vIBSMun": "0.12",
+    "vIS": "4.80",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s19",
+   "item": 1,
+   "ok": false,
+   "esperado": {
+    "numero": 1,
+    "estado": "INCONSISTENCIA_ENTRADA",
+    "erro": "REG-011"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "2.82",
+    "vIBSUF": "0.02",
+    "vIBSMun": "0.02",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s20",
+   "item": 1,
+   "ok": false,
+   "esperado": {
+    "numero": 1,
+    "estado": "INCONSISTENCIA_ENTRADA",
+    "erro": "REG-037"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "26.40",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s21",
+   "item": 1,
+   "ok": false,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "21.12",
+    "vIBSUF": "0.12",
+    "vIBSMun": "0.12",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s22",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s22",
+   "item": 2,
+   "ok": true,
+   "esperado": {
+    "numero": 2,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "351.91",
+    "vIBSUF": "2.00",
+    "vIBSMun": "2.00"
+   },
+   "resposta": {
+    "numero": 2,
+    "vCBS": "351.91",
+    "vIBSUF": "2.00",
+    "vIBSMun": "2.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s22",
+   "item": 3,
+   "ok": true,
+   "esperado": {
+    "numero": 3,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "42.24",
+    "vIBSUF": "0.24",
+    "vIBSMun": "0.24"
+   },
+   "resposta": {
+    "numero": 3,
+    "vCBS": "42.24",
+    "vIBSUF": "0.24",
+    "vIBSMun": "0.24",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s23",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "1.94",
+    "vIBSUF": "0.01",
+    "vIBSMun": "0.01"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "1.94",
+    "vIBSUF": "0.01",
+    "vIBSMun": "0.01",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s23",
+   "item": 2,
+   "ok": true,
+   "esperado": {
+    "numero": 2,
+    "estado": "INCONSISTENCIA_ENTRADA",
+    "erro": "REG-011"
+   },
+   "resposta": {
+    "numero": 2,
+    "erro": "NCM 02013000 (carne bovina fresca, desossada) não consta no anexo da LC 214/2025 a que se refere o cClassTrib 200035 (redução de 60% para produtos de higiene pessoal e limpeza). A combinação NCM e classificação tributária é inconsistente e o item não pode ser calculado."
+   }
+  },
+  {
+   "cenario": "s24",
+   "item": 1,
+   "ok": false,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "51.74",
+    "vIBSUF": "0.29",
+    "vIBSMun": "0.29"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "34.50",
+    "vIBSUF": "0.20",
+    "vIBSMun": "0.20",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s25",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "8800.00",
+    "vIBSUF": "50.00",
+    "vIBSMun": "50.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "8800.00",
+    "vIBSUF": "50.00",
+    "vIBSMun": "50.00",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s26",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "52.80",
+    "vIBSUF": "10.62",
+    "vIBSMun": "5.28"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "52.80",
+    "vIBSUF": "10.62",
+    "vIBSMun": "5.28",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s27",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "8.80",
+    "vIBSUF": "10.60",
+    "vIBSMun": "7.10"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "8.80",
+    "vIBSUF": "10.60",
+    "vIBSMun": "7.10",
+    "vIS": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s28",
+   "item": 1,
+   "ok": false,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "369.60",
+    "vIBSUF": "2.10",
+    "vIBSMun": "2.10"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "365.40",
+    "vIBSUF": "2.10",
+    "vIBSMun": "2.10",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s29",
+   "item": 1,
+   "ok": false,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "0.44",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s30",
+   "item": 1,
+   "ok": false,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "29.04",
+    "vIBSUF": "0.16",
+    "vIBSMun": "0.16",
+    "vIS": "30.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": null,
+    "vIBSUF": null,
+    "vIBSMun": null,
+    "vIS": null,
+    "erro": "Item sem baseCalculo (valor do item) obrigatória para calcular CBS e IBS; sem ela o item não pode ser calculado."
+   }
+  },
+  {
+   "cenario": "s30",
+   "item": 2,
+   "ok": true,
+   "esperado": {
+    "numero": 2,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 2,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s30",
+   "item": 3,
+   "ok": false,
+   "esperado": {
+    "numero": 3,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "154.00",
+    "vIBSUF": "0.88",
+    "vIBSMun": "0.88"
+   },
+   "resposta": {
+    "numero": 3,
+    "vCBS": "66.00",
+    "vIBSUF": "0.38",
+    "vIBSMun": "0.38",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s30",
+   "item": 4,
+   "ok": true,
+   "esperado": {
+    "numero": 4,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "26.75",
+    "vIBSUF": "0.15",
+    "vIBSMun": "0.15"
+   },
+   "resposta": {
+    "numero": 4,
+    "vCBS": "26.75",
+    "vIBSUF": "0.15",
+    "vIBSMun": "0.15",
+    "erro": null
+   }
+  }
+ ],
+ "mcp": [
+  {
+   "cenario": "s01",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULADO",
+    "vCBS": "9.00",
+    "vIBSUF": "1.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "9.00",
+    "vIBSUF": "1.00",
+    "vIBSMun": "0.00",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s02",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULADO",
+    "vCBS": "22.94",
+    "vIBSUF": "2.55",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "22.94",
+    "vIBSUF": "2.55",
+    "vIBSMun": "0.00",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s03",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULADO",
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s04",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULADO",
+    "vCBS": "5.40",
+    "vIBSUF": "0.60",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "5.40",
+    "vIBSUF": "0.60",
+    "vIBSMun": "0.00",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s05",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULADO",
+    "vCBS": "7.20",
+    "vIBSUF": "0.80",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "7.20",
+    "vIBSUF": "0.80",
+    "vIBSMun": "0.00",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s05",
+   "item": 2,
+   "ok": true,
+   "esperado": {
+    "numero": 2,
+    "estado": "CALCULADO",
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 2,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s06",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "INCONSISTENCIA_ENTRADA",
+    "erro": "REG-036"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": null,
+    "vIBSUF": null,
+    "vIBSMun": null,
+    "vIS": null,
+    "erro": "REG-036: Alíquotas nominais informadas indevidamente. Com fato gerador anterior a 01/01/2027 (aqui, 02/04/2026), `aliquotasNominais` não pode ser informado, porque a calculadora resolve as alíquotas vigentes."
+   }
+  },
+  {
+   "cenario": "s07",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "108.64",
+    "vIBSUF": "0.62",
+    "vIBSMun": "0.62"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "108.64",
+    "vIBSUF": "0.62",
+    "vIBSMun": "0.62",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s08",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s09",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s10",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "18.03",
+    "vIBSUF": "0.10",
+    "vIBSMun": "0.10"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "18.03",
+    "vIBSUF": "0.10",
+    "vIBSMun": "0.10",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s11",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "0.97",
+    "vIBSUF": "0.01",
+    "vIBSMun": "0.01"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "0.97",
+    "vIBSUF": "0.01",
+    "vIBSMun": "0.01",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s12",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "119.68",
+    "vIBSUF": "0.68",
+    "vIBSMun": "0.68"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "119.68",
+    "vIBSUF": "0.68",
+    "vIBSMun": "0.68",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s13",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "528.00",
+    "vIBSUF": "3.00",
+    "vIBSMun": "3.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "528.00",
+    "vIBSUF": "3.00",
+    "vIBSMun": "3.00",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s14",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "29.92",
+    "vIBSUF": "0.17",
+    "vIBSMun": "0.17"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "29.92",
+    "vIBSUF": "0.17",
+    "vIBSMun": "0.17",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s15",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "616.00",
+    "vIBSUF": "3.50",
+    "vIBSMun": "3.50"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "616.00",
+    "vIBSUF": "3.50",
+    "vIBSMun": "3.50",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s16",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "14.52",
+    "vIBSUF": "0.08",
+    "vIBSMun": "0.08",
+    "vIS": "15.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "14.52",
+    "vIBSUF": "0.08",
+    "vIBSMun": "0.08",
+    "vIS": "15.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s17",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "94.86",
+    "vIBSUF": "0.54",
+    "vIBSMun": "0.54",
+    "vIS": "98.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "94.86",
+    "vIBSUF": "0.54",
+    "vIBSMun": "0.54",
+    "vIS": "98.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s18",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "INCONSISTENCIA_ENTRADA",
+    "erro": "REG-026"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": null,
+    "vIBSUF": null,
+    "vIBSMun": null,
+    "vIS": null,
+    "erro": "REG-026: Base de cálculo inconsistente. A base de cálculo de CBS/IBS informada (240) difere da soma da base de cálculo do Imposto Seletivo (240) com o Imposto Seletivo informado (4,80), que dá 244,80."
+   }
+  },
+  {
+   "cenario": "s19",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "INCONSISTENCIA_ENTRADA",
+    "erro": "REG-011"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": null,
+    "vIBSUF": null,
+    "vIBSMun": null,
+    "vIS": null,
+    "erro": "REG-011: NCM 02013000 não vinculada à Classificação Tributária 200035 (CBS e IBS)"
+   }
+  },
+  {
+   "cenario": "s20",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "INCONSISTENCIA_ENTRADA",
+    "erro": "REG-037"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": null,
+    "vIBSUF": null,
+    "vIBSMun": null,
+    "vIS": null,
+    "erro": "REG-037: Alíquotas nominais não informadas. Para fato gerador a partir de 01/01/2027, o item precisa trazer aliquotasNominais com cbs, ibsEstadual e ibsMunicipal, e a operação não traz nenhum desses campos."
+   }
+  },
+  {
+   "cenario": "s21",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s22",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s22",
+   "item": 2,
+   "ok": true,
+   "esperado": {
+    "numero": 2,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "351.91",
+    "vIBSUF": "2.00",
+    "vIBSMun": "2.00"
+   },
+   "resposta": {
+    "numero": 2,
+    "vCBS": "351.91",
+    "vIBSUF": "2.00",
+    "vIBSMun": "2.00",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s22",
+   "item": 3,
+   "ok": true,
+   "esperado": {
+    "numero": 3,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "42.24",
+    "vIBSUF": "0.24",
+    "vIBSMun": "0.24"
+   },
+   "resposta": {
+    "numero": 3,
+    "vCBS": "42.24",
+    "vIBSUF": "0.24",
+    "vIBSMun": "0.24",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s23",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "1.94",
+    "vIBSUF": "0.01",
+    "vIBSMun": "0.01"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "1.94",
+    "vIBSUF": "0.01",
+    "vIBSMun": "0.01",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s23",
+   "item": 2,
+   "ok": true,
+   "esperado": {
+    "numero": 2,
+    "estado": "INCONSISTENCIA_ENTRADA",
+    "erro": "REG-011"
+   },
+   "resposta": {
+    "numero": 2,
+    "vCBS": null,
+    "vIBSUF": null,
+    "vIBSMun": null,
+    "erro": "REG-011: o NCM 02013000 não está vinculado à classificação tributária 200035 (CBS e IBS). A calculadora não calculou o item."
+   }
+  },
+  {
+   "cenario": "s24",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "51.74",
+    "vIBSUF": "0.29",
+    "vIBSMun": "0.29"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "51.74",
+    "vIBSUF": "0.29",
+    "vIBSMun": "0.29",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s25",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "8800.00",
+    "vIBSUF": "50.00",
+    "vIBSMun": "50.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "8800.00",
+    "vIBSUF": "50.00",
+    "vIBSMun": "50.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s26",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "52.80",
+    "vIBSUF": "10.62",
+    "vIBSMun": "5.28"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "52.80",
+    "vIBSUF": "10.62",
+    "vIBSMun": "5.28",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s27",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "8.80",
+    "vIBSUF": "10.60",
+    "vIBSMun": "7.10"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "8.80",
+    "vIBSUF": "10.60",
+    "vIBSMun": "7.10",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s28",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "369.60",
+    "vIBSUF": "2.10",
+    "vIBSMun": "2.10"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "369.60",
+    "vIBSUF": "2.10",
+    "vIBSMun": "2.10",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s29",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "0.44",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "0.44",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "vIS": null,
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s30",
+   "item": 1,
+   "ok": true,
+   "esperado": {
+    "numero": 1,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "29.04",
+    "vIBSUF": "0.16",
+    "vIBSMun": "0.16",
+    "vIS": "30.00"
+   },
+   "resposta": {
+    "numero": 1,
+    "vCBS": "29.04",
+    "vIBSUF": "0.16",
+    "vIBSMun": "0.16",
+    "vIS": "30.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s30",
+   "item": 2,
+   "ok": true,
+   "esperado": {
+    "numero": 2,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00"
+   },
+   "resposta": {
+    "numero": 2,
+    "vCBS": "0.00",
+    "vIBSUF": "0.00",
+    "vIBSMun": "0.00",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s30",
+   "item": 3,
+   "ok": true,
+   "esperado": {
+    "numero": 3,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "154.00",
+    "vIBSUF": "0.88",
+    "vIBSMun": "0.88"
+   },
+   "resposta": {
+    "numero": 3,
+    "vCBS": "154.00",
+    "vIBSUF": "0.88",
+    "vIBSMun": "0.88",
+    "erro": null
+   }
+  },
+  {
+   "cenario": "s30",
+   "item": 4,
+   "ok": true,
+   "esperado": {
+    "numero": 4,
+    "estado": "CALCULO_SIMULADO",
+    "vCBS": "26.75",
+    "vIBSUF": "0.15",
+    "vIBSMun": "0.15"
+   },
+   "resposta": {
+    "numero": 4,
+    "vCBS": "26.75",
+    "vIBSUF": "0.15",
+    "vIBSMun": "0.15",
+    "erro": null
+   }
+  }
+ ]
+}

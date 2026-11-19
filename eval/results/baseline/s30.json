@@ -1,0 +1,18 @@
+{
+ "id": "s30",
+ "mode": "baseline",
+ "models": [
+  "claude-sonnet-5-5"
+ ],
+ "result": "{\"itens\": [{\"numero\": 1, \"vCBS\": null, \"vIBSUF\": null, \"vIBSMun\": null, \"vIS\": null, \"erro\": \"Item sem baseCalculo (valor do item) obrigatória para calcular CBS e IBS; sem ela o item não pode ser calculado.\"}, {\"numero\": 2, \"vCBS\": \"0.00\", \"vIBSUF\": \"0.00\", \"vIBSMun\": \"0.00\", \"erro\": null}, {\"numero\": 3, \"vCBS\": \"66.00\", \"vIBSUF\": \"0.38\", \"vIBSMun\": \"0.38\", \"erro\": null}, {\"numero\": 4, \"vCBS\": \"26.75\", \"vIBSUF\": \"0.15\", \"vIBSMun\": \"0.15\", \"erro\": null}]}",
+ "is_error": false,
+ "num_turns": 1,
+ "duration_ms": 22853,
+ "total_cost_usd": 0.031146,
+ "usage": {
+  "input_tokens": 2,
+  "output_tokens": 2321,
+  "cache_creation_input_tokens": 1983,
+  "cache_read_input_tokens": 0
+ }
+}

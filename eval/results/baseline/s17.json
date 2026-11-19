@@ -1,0 +1,18 @@
+{
+ "id": "s17",
+ "mode": "baseline",
+ "models": [
+  "claude-sonnet-5-5"
+ ],
+ "result": "{\"itens\": [{\"numero\": 1, \"vCBS\": null, \"vIBSUF\": null, \"vIBSMun\": null, \"vIS\": null, \"erro\": \"O item não informa a base de cálculo (valor da operação) de CBS/IBS, então esses tributos não podem ser calculados. O campo baseCalculo (980,00) existe apenas dentro de impostoSeletivo e serve só para o IS. O IS informado (98,00 = 10% de 980,00) é consistente, mas não substitui a base do item.\"}]}",
+ "is_error": false,
+ "num_turns": 1,
+ "duration_ms": 13463,
+ "total_cost_usd": 0.01716,
+ "usage": {
+  "input_tokens": 2,
+  "output_tokens": 1088,
+  "cache_creation_input_tokens": 1569,
+  "cache_read_input_tokens": 0
+ }
+}

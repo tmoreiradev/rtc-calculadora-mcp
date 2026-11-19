@@ -1,0 +1,18 @@
+{
+ "id": "s27",
+ "mode": "baseline",
+ "models": [
+  "claude-sonnet-5-5"
+ ],
+ "result": "{\"itens\": [{\"numero\": 1, \"vCBS\": \"8.80\", \"vIBSUF\": \"10.60\", \"vIBSMun\": \"7.10\", \"vIS\": \"0.00\", \"erro\": null}]}",
+ "is_error": false,
+ "num_turns": 1,
+ "duration_ms": 7636,
+ "total_cost_usd": 0.010159999999999999,
+ "usage": {
+  "input_tokens": 2,
+  "output_tokens": 430,
+  "cache_creation_input_tokens": 1464,
+  "cache_read_input_tokens": 0
+ }
+}

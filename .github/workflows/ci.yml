@@ -1,0 +1,33 @@
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  unit:
+    name: unit tests (mocked calculator)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: uv sync --locked
+      - run: uv run pytest -q
+      - run: uv run python -m eval.score --check
+
+  contract:
+    name: contract tests (official calculator in Docker)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v6
+      - run: docker compose up -d --build --wait
+      - run: uv sync --locked
+      - run: uv run pytest -q -m contract
+      - run: uv run python -m eval.gabarito --check
+      - if: failure()
+        run: docker compose logs --tail 200

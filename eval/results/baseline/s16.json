@@ -1,0 +1,18 @@
+{
+ "id": "s16",
+ "mode": "baseline",
+ "models": [
+  "claude-sonnet-5-5"
+ ],
+ "result": "{\"itens\": [{\"numero\": 1, \"vCBS\": null, \"vIBSUF\": null, \"vIBSMun\": null, \"vIS\": null, \"erro\": \"Item sem base de cálculo de IBS/CBS (campo baseCalculo ausente no item). Só o grupo do Imposto Seletivo traz baseCalculo (150,00), e ele não substitui a base de IBS/CBS. Sem ela, vCBS, vIBSUF e vIBSMun não podem ser calculados.\"}]}",
+ "is_error": false,
+ "num_turns": 1,
+ "duration_ms": 11644,
+ "total_cost_usd": 0.014320000000000001,
+ "usage": {
+  "input_tokens": 2,
+  "output_tokens": 804,
+  "cache_creation_input_tokens": 1569,
+  "cache_read_input_tokens": 0
+ }
+}

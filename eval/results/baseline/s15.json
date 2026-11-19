@@ -1,0 +1,18 @@
+{
+ "id": "s15",
+ "mode": "baseline",
+ "models": [
+  "claude-sonnet-5-5"
+ ],
+ "result": "{\"itens\": [{\"numero\": 1, \"vCBS\": \"352.00\", \"vIBSUF\": \"2.00\", \"vIBSMun\": \"2.00\", \"erro\": null}]}",
+ "is_error": false,
+ "num_turns": 1,
+ "duration_ms": 17537,
+ "total_cost_usd": 0.018768,
+ "usage": {
+  "input_tokens": 2,
+  "output_tokens": 1300,
+  "cache_creation_input_tokens": 1441,
+  "cache_read_input_tokens": 0
+ }
+}

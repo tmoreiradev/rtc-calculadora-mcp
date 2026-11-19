@@ -1,0 +1,18 @@
+{
+ "id": "s06",
+ "mode": "mcp",
+ "models": [
+  "claude-sonnet-5-5"
+ ],
+ "result": "{\"itens\": [{\"numero\": 1, \"vCBS\": null, \"vIBSUF\": null, \"vIBSMun\": null, \"vIS\": null, \"erro\": \"REG-036: Alíquotas nominais informadas indevidamente. Com fato gerador anterior a 01/01/2027 (aqui, 02/04/2026), `aliquotasNominais` não pode ser informado, porque a calculadora resolve as alíquotas vigentes.\"}]}",
+ "is_error": false,
+ "num_turns": 2,
+ "duration_ms": 12082,
+ "total_cost_usd": 0.015198299999999998,
+ "usage": {
+  "input_tokens": 4,
+  "output_tokens": 416,
+  "cache_creation_input_tokens": 2532,
+  "cache_read_input_tokens": 9023
+ }
+}

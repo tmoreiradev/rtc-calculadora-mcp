@@ -1,0 +1,380 @@
+{
+ "calculadora": {
+  "versaoApp": "1.6.1",
+  "versaoDb": "V0059"
+ },
+ "cenarios": {
+  "s01": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULADO",
+     "vCBS": "9.00",
+     "vIBSUF": "1.00",
+     "vIBSMun": "0.00"
+    }
+   ]
+  },
+  "s02": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULADO",
+     "vCBS": "22.94",
+     "vIBSUF": "2.55",
+     "vIBSMun": "0.00"
+    }
+   ]
+  },
+  "s03": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULADO",
+     "vCBS": "0.00",
+     "vIBSUF": "0.00",
+     "vIBSMun": "0.00"
+    }
+   ]
+  },
+  "s04": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULADO",
+     "vCBS": "5.40",
+     "vIBSUF": "0.60",
+     "vIBSMun": "0.00"
+    }
+   ]
+  },
+  "s05": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULADO",
+     "vCBS": "7.20",
+     "vIBSUF": "0.80",
+     "vIBSMun": "0.00"
+    },
+    {
+     "numero": 2,
+     "estado": "CALCULADO",
+     "vCBS": "0.00",
+     "vIBSUF": "0.00",
+     "vIBSMun": "0.00"
+    }
+   ]
+  },
+  "s06": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "INCONSISTENCIA_ENTRADA",
+     "erro": "REG-036"
+    }
+   ]
+  },
+  "s07": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "108.64",
+     "vIBSUF": "0.62",
+     "vIBSMun": "0.62"
+    }
+   ]
+  },
+  "s08": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "0.00",
+     "vIBSUF": "0.00",
+     "vIBSMun": "0.00"
+    }
+   ]
+  },
+  "s09": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "0.00",
+     "vIBSUF": "0.00",
+     "vIBSMun": "0.00"
+    }
+   ]
+  },
+  "s10": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "18.03",
+     "vIBSUF": "0.10",
+     "vIBSMun": "0.10"
+    }
+   ]
+  },
+  "s11": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "0.97",
+     "vIBSUF": "0.01",
+     "vIBSMun": "0.01"
+    }
+   ]
+  },
+  "s12": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "119.68",
+     "vIBSUF": "0.68",
+     "vIBSMun": "0.68"
+    }
+   ]
+  },
+  "s13": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "528.00",
+     "vIBSUF": "3.00",
+     "vIBSMun": "3.00"
+    }
+   ]
+  },
+  "s14": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "29.92",
+     "vIBSUF": "0.17",
+     "vIBSMun": "0.17"
+    }
+   ]
+  },
+  "s15": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "616.00",
+     "vIBSUF": "3.50",
+     "vIBSMun": "3.50"
+    }
+   ]
+  },
+  "s16": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "14.52",
+     "vIBSUF": "0.08",
+     "vIBSMun": "0.08",
+     "vIS": "15.00"
+    }
+   ]
+  },
+  "s17": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "94.86",
+     "vIBSUF": "0.54",
+     "vIBSMun": "0.54",
+     "vIS": "98.00"
+    }
+   ]
+  },
+  "s18": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "INCONSISTENCIA_ENTRADA",
+     "erro": "REG-026"
+    }
+   ]
+  },
+  "s19": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "INCONSISTENCIA_ENTRADA",
+     "erro": "REG-011"
+    }
+   ]
+  },
+  "s20": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "INCONSISTENCIA_ENTRADA",
+     "erro": "REG-037"
+    }
+   ]
+  },
+  "s21": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "0.00",
+     "vIBSUF": "0.00",
+     "vIBSMun": "0.00"
+    }
+   ]
+  },
+  "s22": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "0.00",
+     "vIBSUF": "0.00",
+     "vIBSMun": "0.00"
+    },
+    {
+     "numero": 2,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "351.91",
+     "vIBSUF": "2.00",
+     "vIBSMun": "2.00"
+    },
+    {
+     "numero": 3,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "42.24",
+     "vIBSUF": "0.24",
+     "vIBSMun": "0.24"
+    }
+   ]
+  },
+  "s23": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "1.94",
+     "vIBSUF": "0.01",
+     "vIBSMun": "0.01"
+    },
+    {
+     "numero": 2,
+     "estado": "INCONSISTENCIA_ENTRADA",
+     "erro": "REG-011"
+    }
+   ]
+  },
+  "s24": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "51.74",
+     "vIBSUF": "0.29",
+     "vIBSMun": "0.29"
+    }
+   ]
+  },
+  "s25": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "8800.00",
+     "vIBSUF": "50.00",
+     "vIBSMun": "50.00"
+    }
+   ]
+  },
+  "s26": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "52.80",
+     "vIBSUF": "10.62",
+     "vIBSMun": "5.28"
+    }
+   ]
+  },
+  "s27": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "8.80",
+     "vIBSUF": "10.60",
+     "vIBSMun": "7.10"
+    }
+   ]
+  },
+  "s28": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "369.60",
+     "vIBSUF": "2.10",
+     "vIBSMun": "2.10"
+    }
+   ]
+  },
+  "s29": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "0.44",
+     "vIBSUF": "0.00",
+     "vIBSMun": "0.00"
+    }
+   ]
+  },
+  "s30": {
+   "itens": [
+    {
+     "numero": 1,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "29.04",
+     "vIBSUF": "0.16",
+     "vIBSMun": "0.16",
+     "vIS": "30.00"
+    },
+    {
+     "numero": 2,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "0.00",
+     "vIBSUF": "0.00",
+     "vIBSMun": "0.00"
+    },
+    {
+     "numero": 3,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "154.00",
+     "vIBSUF": "0.88",
+     "vIBSMun": "0.88"
+    },
+    {
+     "numero": 4,
+     "estado": "CALCULO_SIMULADO",
+     "vCBS": "26.75",
+     "vIBSUF": "0.15",
+     "vIBSMun": "0.15"
+    }
+   ]
+  }
+ }
+}
